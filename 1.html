@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма по макету №1</title>
+    <link rel="stylesheet" href="/css/form_1.css" />
+  </head>
+  <body>
+    <h2 class="form-title">Форма №1</h2>
+    <form class="conteiner-form" action="#" method="get">
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="username"
+          value=""
+          placeholder="Full name"
+        />
+      </div>
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="companyname"
+          value=""
+          placeholder="Company name"
+        />
+      </div>
+      <div class="form">
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          value=""
+          placeholder="Email"
+        />
+      </div>
+      <div class="form-phone">
+        <select class="form-select" name="code" id="">
+          <option value="+7">+7</option>
+          <option value="+375">+375</option>
+          <option selected value="+374">+374</option>
+          <option value="+996">+996</option>
+          <option value="+998">+998</option>
+        </select>
+        <input class="form-input__phone" type="tel" name="userphone" value="" />
+      </div>
+      <div class="form">
+        <textarea
+          class="form-textarea form-input"
+          name="text"
+          rows="5"
+          placeholder="Message"
+        ></textarea>
+      </div>
+      <div class="form-button">
+        <button class="button" type="submit">Send a reguest</button>
+      </div>
+    </form>
+  </body>
+</html>
